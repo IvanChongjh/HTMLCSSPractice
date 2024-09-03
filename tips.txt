@@ -1,0 +1,2 @@
+shortcut to comment "Ctrl + /" to comment 
+shortcut to input default html "shift + 1 + enter" to auto include document
