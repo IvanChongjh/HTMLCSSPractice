@@ -1,1 +1,3 @@
 To set up download HTML CSS support by ecmel and live server by Ritwick Dey extension.
+
+git remote add origin https://github.com/IvanChongjh/HTMLCSSPractice.git
