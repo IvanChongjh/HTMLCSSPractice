@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Example Two</title>
     <style>
-        .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
+    .grid-container {
+          /* Declaration of display and number of columns */
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+      gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
 
-.item1 {
-  /* this means row 1 occupies the 4 rows */
-  grid-row: 1 / 4;
-}
+    .item1 {
+      /* this means row 1 occupies the 4 rows */
+      grid-row: 1 / 4;
+    }
     </style>
 </head>
 <body>
